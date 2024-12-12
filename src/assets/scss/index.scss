@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+input,
+button {
+  font-family: "Inter", serif;
+}
+
+.sign-in-button button {
+  border: none;
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 16px;
+  cursor: pointer;
+}
